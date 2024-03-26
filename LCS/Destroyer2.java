@@ -10,7 +10,7 @@ import robocode.ScannedRobotEvent;
 
         public void run(){
 		//estetica
-			setBodyColor(Color.black);
+			setBodyColor(Color.yellow);
 			setRadarColor(Color.blue);
 			setGunColor(Color.black);
             setBulletColor(Color.white);		
@@ -38,7 +38,7 @@ import robocode.ScannedRobotEvent;
 		   }
 		   public void onHitByBullet(HitByBulletEvent e) {
 			//Recua quando atingido  
-              back(60);
+              back(20);
 		   }
 
          }
